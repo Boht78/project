@@ -1,0 +1,2359 @@
+*{
+
+    font-size: 16px;
+scroll-behavior: smooth;
+}
+
+
+
+
+body{
+    overflow-y: scroll;
+    overflow-x: hidden;
+border: solid 10px;
+    margin: 0;
+    padding: 0;
+  
+    height: 100%;
+    height: auto;
+    
+    background: rgba(240, 240, 192, 0.74);
+  position: relative;
+}
+
+body a{
+    
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.container{
+border: solid 2px red;
+overflow-y: hidden;
+overflow-x: hidden;
+height: 100%;
+height: auto;
+
+position: relative;
+}
+
+
+
+.backup{
+position: fixed;
+bottom: 100px;
+left: 30px;
+border: solid 2px ;
+border-radius: 20px;
+height: 30px;
+width: 30px;
+opacity: 0;
+transition: ease-in-out;
+z-index: 100;
+}
+
+
+
+
+.btn-backup{
+border: hidden;
+height: 100%;
+width: 100%;
+background: unset;
+
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.btn-backup img{
+height: 100%;
+   
+
+}
+
+
+
+
+
+
+
+
+
+  
+.catch-menu{
+position: absolute;
+width: 0vh;
+background: blue;
+height: 100vh;
+
+
+box-sizing: border-box;
+z-index: 100;
+
+
+
+}
+  
+
+
+
+/*right-menu start*/
+
+
+.right-menu{
+overflow-y: scroll;    
+border: solid black ;
+background: rgb(255, 7, 7);
+height: 50%;
+width: 0vh;
+
+translate: 0 80px;
+transition: 0.5s;
+z-index: 100;
+
+
+}
+
+
+
+@media (max-width:300px) {
+    
+    .right-menu{
+
+        width: 0vh;
+    }
+
+}
+
+
+
+
+.list-menu{
+    overflow-x: auto;
+   
+    border: solid green;
+     
+    height: 100%;
+     height: auto; 
+   position: relative;     
+    display: flex;
+    flex-flow: column;
+}
+
+
+
+
+
+
+.new-style{
+    border: solid blue;
+    height: 15%;
+    position: absolute;
+    top: 15px;
+    right: -0px;
+
+}
+    
+
+
+
+
+
+
+
+
+
+.singup{
+
+    height: auto;
+    
+    border: solids black;
+    margin: 3vw;
+   
+    text-align: center;
+box-shadow:  1vh 0vh 1vh 0vh  rgb(151, 8, 8);
+}
+
+
+
+
+
+
+
+.singup a{
+display: block;
+padding: 10px;
+font-size: 1.1rem;
+text-transform: capitalize;
+font-weight: 900;
+
+}
+
+.fix{
+
+height: 80px;
+border: solid;
+
+}
+
+
+
+
+
+.s-l-c-m{
+    height: auto;
+    
+border: solids rgb(141, 19, 19);
+margin: 10px;
+
+text-align: center;
+overflow: hidden;
+}
+
+
+
+
+
+
+
+.s-l-c-m p{
+
+    font-size: 1.1rem;
+    font-style: italic;
+    font-variant: small-caps;
+    letter-spacing: 1px;
+}
+
+
+.s-l-c-m span{
+text-transform: capitalize;
+}
+
+
+
+.s-l-c-m:hover{
+
+    background: red;
+}
+
+
+
+
+
+
+
+.l-c-m{
+   
+    border: solid;
+    background: rgb(235, 235, 181);
+    height: 0px;
+    
+    box-sizing: border-box;
+
+}
+
+
+
+ .top-down{
+    display: inline-block;
+    border: solid rgb(40, 255, 11);
+    height: 20px;
+    width: 30px;
+    
+    /*
+    background-image: url(/header/600px/down-_1_.ico);
+    background-repeat: no-repeat;
+    background-size: cover;
+*/
+
+position: relative;
+}
+
+
+.top-down img{
+    height: 100%;
+}
+
+
+
+
+.langs{
+  
+   
+    padding: 10px 0;
+}
+
+.langs:hover{
+    background: red;
+}
+
+
+
+
+
+
+
+
+
+
+
+.new-meals{
+    background: rgb(235, 235, 181);
+    
+}
+
+.new{
+    border: solid ;
+    display: flex;
+    justify-content: space-between;
+}
+.new span{
+    border: solid black;
+    display: inline;
+    align-self: center;
+    height: 40px;
+    width: 40px;
+
+}
+
+
+
+.new span{
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+.new1 span{
+
+    background-image: url(/header/600px/iconsnew/drink.png);
+}
+
+
+.new2 span{
+    background-image: url(/header/600px/iconsnew/iced-coffee.png);
+}
+
+.new3 span{
+
+    background-image: url(/header/600px/iconsnew/panna-cotta.png);
+}
+
+
+.new4 span{
+
+    background-image: url(/header/600px/iconsnew/bakery.png);
+}
+
+
+/* right-menu end */
+
+
+
+
+
+
+
+
+/*header start*/
+header{
+position: relative;
+border: solid rgb(207, 207, 41);
+height: 25vh;
+height: auto;
+
+
+}
+
+
+
+
+
+.list-h{
+
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meals-logo{
+   
+border: solid 5px blue;
+height: 70px;
+
+background: hsla(0, 100%, 50%, 0.822);
+
+display: flex;
+justify-content: space-between;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.icon{
+border: solid rgb(0, 38, 255);
+height: 50px;
+width: 50px;
+align-self: center;
+}
+
+
+.btn-h{
+    
+height: 60%;
+width: 60%;
+margin: 10px;
+background: unset;
+background-image: url(/header/600px/hamburger\ \(1\).ico);
+background-repeat: no-repeat;
+background-size: cover;
+box-sizing: border-box;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meals{
+    overflow-x: scroll;
+   overflow-y: hidden;
+border: solid rgb(98, 0, 255);
+position: relative;
+
+flex: 1;
+
+
+
+    border: solid 3px green;
+display: flex;
+align-items: center;
+gap: 0 0px;
+
+}
+
+
+
+
+.items{
+    margin: 0 15px;
+    
+}
+
+.items:focus{
+    color: #ffffff;
+}
+
+
+.texts{
+ 
+border: solid ;
+font-size: 1.2rem;
+font-weight: 900;
+font-variant: small-caps;
+letter-spacing: 0.1cap;
+
+}
+
+
+.black-line{
+    position: absolute;
+   display: none;
+    border: solid black;
+    
+    translate: 0 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.logo{
+
+    border: solid  rgb(49, 41, 41);
+    background: rgb(240, 240, 192);
+  height:100%;
+  width: 15%;
+}
+
+.logo img{
+    display: block;
+    border: solid ;
+    height: 100%;
+    width: 100%;
+    
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.meals-images{
+border: solid 5px rgb(0, 255, 64);
+
+height: 250px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+
+position: relative;
+}
+
+
+.night{
+    border-radius: 20px;
+    border: solid blue;
+    height: 30px;
+    width: 30px;
+   
+    position: absolute;
+    top: 0;
+    left: 13px;
+
+
+    z-index: 50;
+    
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                px; 
+}
+
+.night-s{
+    transition: 2s;
+  display: block;
+  border-radius: 20px;
+    background-image: url(/header/600px/moonandsun/sun.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 100%;
+    width: 100%; 
+}
+
+
+.night-s:hover{
+
+transform: scale(1.5);
+
+}
+
+
+
+.image{
+    /* background-image: linear-gradient(to top left, rgba(141, 141, 137, 0.192) 40%,#ffffffc4 60% ); */
+border: solid 5px blue;
+height: 100%;
+width: 100%;
+position: relative;
+}
+
+
+.block-img{
+position: absolute;    
+display: inline-block;
+border: solid black;
+height: 100%;
+width: 100%;
+opacity: 0;
+
+}
+
+.active{
+    opacity: 1;
+
+    transition: 5s;    
+
+}
+
+
+
+
+
+
+.block1{
+
+
+}
+
+.block2{
+
+}
+
+.block3{
+
+
+}
+.block4{
+
+    
+}
+
+.block5{
+    
+    
+}
+
+
+
+
+
+.imgs{
+   
+    display: block;
+    height: 100%;
+    width: 100%;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  
+    
+}
+
+
+
+
+.img1{
+border: solid black;
+
+}
+
+
+
+
+.img2{
+
+   
+
+
+}
+
+.img3{
+
+}
+
+.img4{
+   
+}
+
+.img5{
+   
+}
+
+
+
+/*header end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*main start*/
+
+main{
+border: solid 5px green;
+
+height: 100%;
+height: auto;
+box-sizing: border-box;
+}
+
+
+
+
+
+.list-m{
+
+border: solid 2px rgb(0, 38, 255) ;
+
+
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+.title-food{
+border: solid 10px rgb(26, 26, 23);
+height: 0px;
+
+color: black;
+overflow: hidden;
+margin-top: 30px;
+
+display: flex;
+justify-content: space-around;
+align-items: center;
+
+box-sizing: border-box;
+
+animation: time 5s;
+
+}
+
+
+
+
+
+
+.rating{
+
+    border: solid black;
+
+}
+
+
+.span-rating{
+
+    font-size: 1.5rem;
+    font-weight: 900;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+
+
+
+
+
+
+
+.name-f{
+background: rgba(126, 121, 121, 0.89);
+
+height: auto;
+width: 100px;
+width: auto;
+padding: 10px;
+border-radius: 20px;
+color: #000;
+
+
+}
+
+
+
+
+.letter1{
+   
+    display: block;
+font-size: 1.6rem;
+font-weight: 900;
+text-transform: capitalize;
+letter-spacing: 0.1cap;
+text-shadow: 0px -5px rgba(224, 157, 157, 0.205)  ;
+translate: 3px -2px;
+
+
+}
+
+@media (max-width:300px) {
+    
+ .letter1{
+
+ font-size: 1rem;
+
+ }
+
+}
+
+
+
+
+
+
+
+
+
+.type-food{
+    border: solid rgb(0, 255, 13);
+  height: 100%;
+  margin: 40px 0 ;
+   color: rgb(226, 26, 26);
+   
+}
+
+
+.type-food span,p{
+
+color: rgb(0, 0, 0);
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.Dishes{
+    border: solid red;
+    color: #000000;
+    height: 250px;
+    height: auto;
+}
+
+
+
+.div-write1{
+height: 30%;
+height: 100px;
+height: auto;
+width: auto;
+border: solid rgb(55, 0, 255);
+overflow: hidden;
+background-color: hsl(60, 58%, 86%);
+
+display: flex;
+flex-flow: column;
+}
+
+
+
+
+.writes{
+
+    display: inline-block;
+    
+       
+    }
+    
+
+
+.write1{
+    display: inline-block;
+    border: solid;
+    height: 100%;
+
+}
+
+
+
+.paper{
+    
+ height: auto;  
+
+}
+
+
+
+.penfood{
+   
+   
+   
+position: relative;
+font-size: xx-large;
+
+}
+
+
+
+
+
+
+
+
+ .penfood1::before{
+    content: '';
+  
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+    
+    border: solids 5px rgb(19, 18, 17);
+    color: #000;
+    border-left: 5px solid blue;
+    background-color: hsl(60, 58%, 86%);
+height: 100%;
+width: 100%;
+
+
+animation: mtext 5s steps(25) infinite;
+
+}
+
+
+
+@keyframes mtext{
+
+    60%,100% {
+
+        left: calc(100% + 4px)
+
+    }
+
+     100%{ 
+        left: 0%;
+    }
+
+}
+
+
+
+
+
+
+
+
+
+.div-write2{
+border: solid rgb(0, 4, 255);
+height: 70%;
+
+}
+
+
+
+.write2{
+    height: auto;
+   
+    
+       font-size: 1rem;
+       word-spacing: 5px;
+       line-height: 30px;
+
+    }
+
+
+
+
+ .rapid{
+color: rgba(240, 240, 192, 0.74);
+font-size: x-large;
+font-weight: 900;
+border-bottom: solid;
+border-radius: 5px;
+transition:1s;
+ }
+
+ .TextForLargeScreen{
+    display: none;
+ }
+
+
+
+
+
+/* dishes-2 start*/
+
+
+
+.Dishe2{
+
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+.list-dishe-2{
+
+   height: 50vh;
+
+ }
+
+video{
+    height: 100%;
+}
+
+
+
+
+
+/* Dishes-2 End */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.list-type-food{
+
+  overflow-x: scroll;
+    scrollbar-width: 100%;
+    overflow-y: hidden;
+    border: solid 5px rgb(14, 10, 13);
+    height: 80%;
+    height: auto;
+    width: auto;
+   
+    
+    display: grid;
+    grid-template-columns: repeat(5,100%);
+    grid-template-rows: repeat(1,auto);
+    align-content: center;
+    
+    gap: 50px 0px;
+    
+
+  
+}
+
+
+
+
+
+.foods{
+display: inline-block;
+border: solid;
+height: 390px;
+height: auto;
+color: #181515;
+width: 100%;
+width: auto;
+}
+
+
+
+
+.active{
+
+    animation: test 5s;
+}
+
+
+@keyframes test{
+
+0%{
+opacity: 1;
+
+}
+
+100%{
+
+    opacity: 0;
+}
+
+}
+
+
+
+
+.food1{
+
+
+}
+
+
+.food2{
+
+
+
+}
+
+
+
+
+.food3{
+
+
+
+}
+
+
+.food4{
+    
+}
+
+
+
+.food5{
+
+
+}
+
+
+
+
+
+.ads{
+    border: solid black;
+    height: 200px;
+}
+
+
+
+
+
+
+
+
+.img-fs{
+
+border: solid 5px red;
+
+height: 60%;
+
+}
+
+
+.img-fs img{
+
+height: 100%;
+width: 100%;
+
+}
+
+
+
+
+
+
+
+
+.discribe{
+
+    border: solid 5px blue ;
+
+    height: 40%;
+   
+   max-width: 50vh;
+   overflow-y: hidden;
+
+}
+
+
+
+
+@media (max-width:300px) {
+
+    
+    .img-fs{
+
+        height: auto;
+    }
+
+    .discribe{
+        
+        height: auto;
+        overflow-y: auto;
+    }
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.name-food{
+border: solids;
+font-size: 6.5vw;
+border-bottom: solid;
+letter-spacing: 2px;
+font-weight: 600;
+font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-transform: capitalize;
+}
+
+
+.explain{
+font-size: 1rem;
+word-spacing: 3px;
+line-height: 30px;
+letter-spacing: 1px;
+font-variant: small-caps;
+
+}
+
+
+
+.addtobask{
+   
+border: solid rgb(226, 236, 226);
+height: auto;
+ position: absolute; 
+left: -1%;
+ bottom: -8%; 
+width: 100%;
+display: flex;
+justify-content: space-around;
+
+}
+.discribe{
+    color: #ffffff;
+}
+
+
+.icon-b{
+
+border-radius: 20px;
+    border: solid 5px;
+    background: #079607;
+  
+   
+    
+}
+
+
+
+
+.fly{
+    display: block;
+border: solid;
+
+position: absolute;
+top: -5vh;
+
+height: 5vh;
+width:  5vh;
+z-index: 1000000;
+}
+
+
+
+
+.icon-sp{
+   
+
+   border-radius: 20px;       
+   
+   padding: 50px;
+   
+   font-size: 5vw;
+   font-weight: 900;
+}
+
+
+
+
+
+
+
+
+
+.div-pr{
+
+    align-self: center;
+}
+
+.div-pr1{
+
+    display: none;
+
+}
+
+
+.price{
+
+font-size: 6vw;
+
+}
+
+
+
+
+
+
+.swiper{
+
+    border: solid 5px rgb(255, 0, 119);
+    position: relative;
+}
+  
+
+.move{
+    border: solid  black;
+    
+    overflow: scroll;
+    height:  auto;
+   position: absolute;
+     bottom: 50%;
+     left: 4%;
+
+   display: flex;
+   justify-content: space-between;
+   width: 90%;
+  
+   
+}
+
+
+@media (max-width: 300px) {
+
+   body .container .list-type-food .move{
+        background: red;
+        display: none;
+    }
+    
+}
+
+
+
+
+
+
+   
+.backup{
+    height: 3vh;
+    width: 3vh;
+    border-radius: 6vh;
+}
+
+
+
+
+.prev-next{
+    
+      
+    border: hidden;
+   
+    height: 40px;
+    width: 40px;
+    border-radius: 20px;
+    background: rgba(204, 200, 200, 0.692); 
+  
+
+}
+
+
+.prev-next img{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.prev2{
+
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+.prev2 img{
+
+
+border-radius: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+.next1{
+opacity: 0;
+display: flex;
+justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.next1 img{
+    display: block; 
+    border-radius: 20px;
+   
+}
+
+
+
+.ArrowRight{
+   
+}
+
+
+
+
+
+
+.lines1-2{
+  position: absolute;
+    border: solid 1px;
+width: 20px;   
+
+}
+
+
+
+.lift1{
+
+height: 5px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+/*main end*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+border: solid blue;
+
+height: 200px;
+height: auto;
+width: auto;
+margin-top: 20px;
+box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+.list-f{
+   
+    border: solid rgb(0, 255, 98);
+    background: rgb(190, 187, 187);
+height: 100%;
+height: auto;
+width: auto;
+
+box-sizing: border-box;
+}
+
+
+
+
+.info-connect{
+
+    border: solid blue;
+height: 80%;
+height: 150px;
+height: auto;
+
+
+box-sizing: border-box;
+display: grid;
+grid-template-columns: repeat(3,auto);
+grid-template-rows: repeat(2,auto);
+
+gap: 60px 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 300px) {
+    
+
+
+footer .list-f .info-connect{
+
+    display: grid;
+grid-template-columns: repeat(2,auto);
+grid-template-rows: repeat(2,auto);
+
+
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.infos{
+                                                                                     
+text-align: center;
+height: auto;
+}
+
+.infos:hover{
+    background-color: rgba(240, 240, 192, 0.74);
+}
+
+.infos:checked{
+    background: orange;
+}
+
+.ColorOrange{
+
+    background: orange;
+}
+
+
+.infos a{
+    color:  black;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 900;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+    text-transform: capitalize;
+    font-size: 2.5vw;
+}
+
+
+
+
+
+
+
+.follow-us{
+   
+    border: solid red;
+    height: 20%;
+    height: auto;
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-around;
+    align-items: end;
+}
+
+.apps{
+ 
+    height: 4vh;
+   width: 4vh;
+    border: solid;
+display: flex;
+}
+
+
+.apps img{
+
+
+}
+
+
+
+
+
+
+/* 640 to 750 */
+/* 750 to 940 */
+/* 940 to 1200 */
+
+@media (orientation: landScope) and (min-width: 640px) {
+  
+
+}
+
+@media (min-width:640px)  {
+    body{
+        background: rgba(228, 228, 221, 0.582);
+
+    }
+
+
+
+   
+    .backup{
+        height: 5vh;
+        width: 5vh;
+        border-radius: 6vh;
+    }
+    
+
+      .s-l-c-m p{
+        font-size: 3vw;
+      }
+      .s-l-c-m span{
+
+        height: 5vh;
+        width: 5vh;
+
+      }
+     .l-c-m span{
+
+      font-size: 2.3vw;
+
+     }
+
+
+    .fix p{
+
+        font-size: 3vw;
+
+    }
+
+
+
+
+
+
+
+  .meals-logo{
+
+
+
+  }
+
+
+
+    .texts{
+    
+        font-size:  ;
+    }
+
+
+
+    .logo{
+
+        height: auto;
+        width: 8%;
+    }
+
+    .logo img{
+
+        background-size: cover;
+    }
+
+    
+    .icon{
+
+    
+        
+display: flex;
+justify-content: center;
+align-items: center;
+    
+    }
+
+    
+
+    .btn-h{
+
+        margin: 0;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .penfood1{
+    
+            font-size: 5vw;
+        }
+
+
+   
+
+
+
+
+
+    .rapid{
+
+        font-size: 3.2vw;
+    }
+
+    .write2{
+
+        font-size: 2.5vw;
+        white-space: 2vh;
+        line-height: 30px;
+    }
+
+    .TextForLargeScreen{
+        display: inline;
+    }
+
+
+
+
+
+main{
+
+    background: url(/main/background-Photoroom.png);
+
+}
+
+
+
+
+
+.letter1{
+    padding: 1vw;
+    font-size: 3vw;
+}
+
+
+
+
+    .list-type-food{
+
+        grid-template-columns: repeat(5,50%);
+        
+
+       
+    }
+
+
+    .move{
+        display: none;
+    }
+
+
+
+  .img-fs{
+
+    height: 50%;
+
+  }
+
+.discribe{
+
+    height: 50%;
+    max-width: 100vh;
+}
+
+.name-food{
+    font-size: 3vw;
+}
+
+.explain{
+    font-size: 2vw;
+    font-weight: 300;
+}
+
+.addtobask{
+
+
+}
+
+
+
+.icon-b{
+height: 50%;
+width: 20%;
+width: auto;
+align-self: center;
+}
+
+
+.icon-sp{
+   font-size: 3.5vw;
+   padding: 2vh;
+}
+
+
+.span-rating{
+    font-size: 3vw;
+}
+
+.price{
+    font-size: 3.8vw;
+}
+
+.follow-us{
+    height: auto;
+}
+
+
+.apps{
+
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+@media (min-width:767px) {
+    
+body{
+ background: rgba(2, 54, 2, 0.555);
+}
+
+
+
+
+.right-menu::-webkit-scrollbar{
+
+    display: none;
+}
+
+
+.meals::-webkit-scrollbar{
+    display: none;
+}
+
+.list-type-food::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.fix{
+height: auto;
+
+}
+
+
+.top-down{
+height: 5vh;
+width: 5vh;
+}
+
+
+
+
+.night{
+height: 5vh;
+width: 5vh;
+
+}
+
+
+
+.logo{
+
+    width: 10%;
+}
+
+
+
+.icon{
+    height: 90px;
+    width: 90px;
+
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+
+
+
+.rapid{
+
+
+}
+
+.write2{
+
+
+}
+
+.TextForLargeScreen{
+    
+   
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    .list-type-food{
+
+        grid-template-columns: repeat(5,35%);
+        
+
+       
+    }
+
+
+    .move{
+        display: none;
+    }
+
+
+
+  .img-fs{
+
+    height: 50%;
+
+  }
+
+.discribe{
+
+    height: 50%;
+    max-width: 100vh;
+}
+
+.name-food{
+  display: block;
+  
+}
+
+
+
+.addtobask{
+
+
+}
+
+
+
+.icon-b{
+   
+height: 30%;
+width: auto;
+align-self: center;
+}
+
+
+.icon-sp{
+   font-size: 2.5vw;
+   padding: 30px;
+}
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+
+
+
+
+@media (min-width:820px) and (min-height:1180px) {
+    
+
+.meals-logo{
+
+    height: 90px;
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+@media (min-width:1000px) {
+    
+    body{
+        background: rgba(79, 3, 255, 0.438);
+    }
+    
+
+    .catch-menu{
+
+        translate: 0 30px;
+
+    }
+
+
+
+    .meals-logo{
+        height: 100px;
+    }
+
+
+ 
+
+   
+   
+   .singup a{
+       font-size: 3vw;
+   }
+   
+   .fix{
+   height: auto;
+   
+   }
+   
+   
+   
+   .top-down{
+   height: 8vh;
+   width: 8vh;
+   }
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+       .list-type-food{
+   
+           grid-template-columns: repeat(5,30%);
+           
+         
+       }
+   
+   
+       .move{
+           display: none;
+       }
+   
+   
+   
+     .img-fs{
+   
+       height: 50%;
+   
+     }
+   
+   .discribe{
+   
+       height: 50%;
+       max-width: 100vh;
+   }
+   
+   .name-food{
+     display: block;
+   
+   }
+   
+   
+   
+   .addtobask{
+   
+   
+   }
+   
+   
+   
+   .icon-b{
+      
+   height: 30%;
+   width: auto;
+   align-self: center;
+   }
+   
+   
+   .icon-sp{
+      font-size: 2.5vw;
+      padding: 30px;
+   }
+   
+   
+   
+   
+   
+
+
+
+
+    }
+    
+
+
+
+
+
+
+
+
+
+    
+
+@media (min-width:1200px) {
+    
+    body{
+        background: rgb(188, 255, 3);
+    }
+    
+
+
+
+  .write2{
+    line-height: 60px;
+  }
+
+
+  .explain{
+
+    line-height: 50px;
+  }
+
+    }
+
+
+
+
